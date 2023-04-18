@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/RVCC-IDMX/ticket-manager-BrandonSkyTai/issues"
   },
-  "homepage": "https://github.com/RVCC-IDMX/ticket-manager-BrandonSkyTai#readme"
+  "homepage": "https://github.com/RVCC-IDMX/ticket-manager-BrandonSkyTai#readme",
+  "devDependencies": {
+    "@eslint/create-config": "^0.4.2",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
 }
