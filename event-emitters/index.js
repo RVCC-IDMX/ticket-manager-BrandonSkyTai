@@ -21,10 +21,10 @@ ticketManager.on('error', (error) => {
 });
 
 log(chalk.bgGreenBright.bold(`We have ${ticketManager.listenerCount('buy')} listener(s) for the buy event`));
-log(chalk.bgYellow(`We have ${ticketManager.listenerCount('error')} listener(s) for the error event`));
+log(chalk.bgYellow(`We have ${ticketManager.listenerCount('error')} listener(s) for the error event\n`));
 
 const onBuy = () => {
-  log(chalk.red.bold.italic('I will be removed soon'));
+  log(chalk.red.bold.italic('I will be removed soon\n'));
 };
 
 ticketManager.on('buy', onBuy);

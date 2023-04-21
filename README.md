@@ -14,3 +14,8 @@ The Ticket Manager allows consumers to purchase a specified quantity of tickets.
     by providing an identifying string for the listener and a variable containing the corresponding callback function.
 
     To remove all listeners associated with a specific identifying string from the event emitter, use the code "ticketManager.removeAllListeners(string);".
+
+# Instructions
+
+In the terminal type "node index.js"
+
